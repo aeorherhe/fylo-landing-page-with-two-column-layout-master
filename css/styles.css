@@ -56,7 +56,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 .nav-logo {
@@ -71,7 +71,7 @@ a {
 }
 
 .articles {
-  padding: 0 3rem;
+  padding: 0 1rem;
   margin: 3rem 0;
 }
 
@@ -113,6 +113,11 @@ a {
   font-weight: 700;
 }
 
+.btn:hover {
+  background: hsla(224, 93%, 58%, 0.6);
+  transition: all 0.3s linear;
+}
+
 .productivity {
   padding: 5rem 0;
   background: url(../images/bg-curve-mobile.svg) no-repeat;
@@ -137,6 +142,7 @@ a {
   border-bottom: var(--outline);
   display: flex;
   margin: 2rem 0 0;
+  cursor: pointer;
   gap: 10px;
 }
 
@@ -205,7 +211,6 @@ a {
 }
 
 .contact-services {
-  color: var(--White);
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -216,6 +221,11 @@ a {
   display: flex;
   margin: 15px 0;
   gap: 20px;
+}
+
+.footer a:hover {
+  color: var(--Desaturated-Blue);
+  transition: all 0.3s linear;
 }
 
 .list-items li {
@@ -243,6 +253,10 @@ a {
 
   img {
     max-width: 40rem;
+  }
+
+  .nav-bar {
+    padding: 0;
   }
 
   .articles,
